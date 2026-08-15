@@ -27,10 +27,9 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # REPLACE THIS WITH YOUR NESTED FOLDER PATH
+          # This points directly to your nested website folder
           path: 'slims_documentation'
 
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
