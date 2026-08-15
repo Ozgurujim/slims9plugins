@@ -2,7 +2,7 @@
 /**
  * Plugin Name: <b style="color: #2566BE;">SLiMS Documentation
  * Plugin URI:https://github.com/Ozgurujim/ 
- * Description: A searchable set of pages that serve as a manual for SLiMS
+ * Description: A searchable set of pages that serve as a manual for SLiMS 9.XX
  * Version: 0.9
  * Author: jim richardson
  * Author URI: https://github.com/Ozgurujim/
