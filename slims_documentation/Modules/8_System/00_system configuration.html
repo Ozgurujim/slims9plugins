@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc 3.10" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>tmp7inzt_ic</title>
+  <style>
+
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+
+ul.task-list[class]{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+font-size: inherit;
+width: 0.8em;
+margin: 0 0.8em 0.2em -1.6em;
+vertical-align: middle;
+}
+</style>
+  <style type="text/css">:root {--step--2: 0.64rem;--step--1: 0.8rem;--step-0: 1rem;--step-1: 1.25rem;--step-2: 1.563rem;--step-3: 1.953rem;--step-4: 2.441rem;--step-5: 3.052rem;}h1 {font-size: var(--step-5);font-weight: 600;margin-top: 1.5em;margin-bottom: 0.75em;}h2 {font-size: var(--step-4);font-weight: 600;margin-top: 1.5em;margin-bottom: 0.75em;}h3 {font-size: var(--step-3);font-weight: 600;margin-top: 1.5em;margin-bottom: 0.75em;}h4 {font-size: var(--step-2);font-weight: 600;margin-top: 1.5em;margin-bottom: 0.75em;}h5 {font-size: var(--step-1);font-weight: 600;margin-top: 1.5em;margin-bottom: 0.75em;}h6 {font-size: var(--step-0);font-weight: 600;margin-top: 1.5em;margin-bottom: 0.75em;}body {font-size: var(--step-0);font-family:"MyricaM M", "Migu 1M", "Ricty Diminished","Hiragino Sans", "Yu Gothic", "Noto Sans JP","Helvetica Neue", "Segoe UI", "Roboto", "Noto Sans","Noto Sans SC", "Microsoft YaHei", "PingFang SC","Noto Sans TC", "PingFang TC", "Microsoft JhengHei","Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic","MeiryoKe_Console", "Consolas", "Menlo", "Ubuntu Mono","DejaVu Sans Mono", "Liberation Mono",monospace;line-height: 1.6;padding: 2rem;max-width: 1280px;margin: auto;background: #f8f9fa;color: #24292e;}code {font-size: var(--step-0);font-family:"MyricaM M", "Migu 1M", "Ricty Diminished","Hiragino Sans", "Yu Gothic", "Noto Sans JP","Helvetica Neue", "Segoe UI", "Roboto", "Noto Sans","Noto Sans SC", "Microsoft YaHei", "PingFang SC","Noto Sans TC", "PingFang TC", "Microsoft JhengHei","Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic","MeiryoKe_Console", "Consolas", "Menlo", "Ubuntu Mono","DejaVu Sans Mono", "Liberation Mono",monospace;color: black;background: lightyellow;padding: 2px 4px;border-radius: 4px;}pre code {font-size: var(--step-0);font-family:"MyricaM M", "Migu 1M", "Ricty Diminished","Hiragino Sans", "Yu Gothic", "Noto Sans JP","Helvetica Neue", "Segoe UI", "Roboto", "Noto Sans","Noto Sans SC", "Microsoft YaHei", "PingFang SC","Noto Sans TC", "PingFang TC", "Microsoft JhengHei","Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic","MeiryoKe_Console", "Consolas", "Menlo", "Ubuntu Mono","DejaVu Sans Mono", "Liberation Mono",monospace;color: black;background: lightyellow;padding: 0.5rem;display: block;border-radius: 6px;overflow-x: auto;}.sourceCode {font-size: var(--step-0);font-family:"MyricaM M", "Migu 1M", "Ricty Diminished","Hiragino Sans", "Yu Gothic", "Noto Sans JP","Helvetica Neue", "Segoe UI", "Roboto", "Noto Sans","Noto Sans SC", "Microsoft YaHei", "PingFang SC","Noto Sans TC", "PingFang TC", "Microsoft JhengHei","Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic","MeiryoKe_Console", "Consolas", "Menlo", "Ubuntu Mono","DejaVu Sans Mono", "Liberation Mono",monospace;color: black;background: lightyellow;padding: 0.5rem;display: block;border-radius: 6px;overflow-x: auto;}table {font-size: var(--step-0);border-collapse: collapse;margin: 1em 0;}table th {font-size: var(--step-0);background: lightgreen;border: 1px solid #000;padding: 0.5em 1em;}table td {font-size: var(--step-0);border: 1px solid #000;padding: 0.5em 1em;}blockquote {font-size: var(--step-0);border-left: 4px solid lightgray;padding-left: 1em;color: #6c757d;margin: 1em 0;}a:link {font-size: var(--step-0);color: #0066cc;}a:visited {font-size: var(--step-0);color: #551a8b;}a:hover {font-size: var(--step-0);color: #cc0000;}a:active {font-size: var(--step-0);color: #ff6600;}ul, ol {font-size: var(--step-0);padding-left: 2em;}hr {border: none;border-top: 1px solid #dee2e6;margin: 2em 0;}</style>
+</head>
+<body>
+<h3 id="system-configuration">System configuration</h3>
+<hr />
+<p>Using this form you can make changes to the global preferences in
+SLiMS applications, such as: - <strong>Library name</strong> (Name of
+library, appears in OPAC and printed items such as labels and cards) -
+<strong>Library sub-name</strong> (Additional library name, optional) -
+<strong>Logo image</strong> (Library logo image file, can be uploaded,
+may be used in OPAC and member cards) - <strong>Default application
+language</strong> (Language that Admin. modules are displayed in, and is
+OPAC default) - <strong>Default application timezone</strong> (These
+must be timezones supported by PHP) - <strong>Search engine</strong>
+(Choose search engine, and configure if allowed) - <strong>Number of
+titles to show in OPAC result list</strong> (Number of titles that will
+be displayed on every page in the OPAC) - <strong>Show promoted titles
+on homepage</strong> (Showing title of resource in the home page of the
+OPAC) - <strong>Quick return</strong> [Enable/Disable] (to allow the
+return of items via a quick method; default=Enable) - <strong>Print
+circulation receipt</strong> [Print/Don’t print] (default= Don’t print)
+- <strong>Loan and due date - Manual change</strong> [Enable/Disable]
+(default = Disable) - <strong>Loan limit override</strong>
+[Enable/Disable] (ability for staff to override limits; default=Disable)
+- <strong>Ignore holidays fine calculation</strong> [Enable/Disable]
+(whether to count holidays in calculating fines; default=Disable) -
+<strong>OPAC XML detail</strong> [Enable/Disable] (allow XML display of
+title detail; default=Enable) - <strong>OPAC XML result</strong>
+[Enable/Disable] (allow XML display of search results; default=Enable) -
+<strong>Enable SEARCH spellchecker</strong> [Enable/Disable]
+(default=Enable) - <strong>Allow OPAC file download</strong>
+[Allow/Forbid] (allow/forbid users to download title file attachments) -
+<strong>Session login timeout</strong> ( set time before a logged-in
+user is automatically logged out) - <strong>Remember me Timeout</strong>
+( days before the “remember me” token will expire) - <strong>Barcode
+encoding</strong> [ Code 128/Code 38] (set the encoding system used for
+barcodes) - <strong>Visitor counter by IP</strong> [Enable/Disable] (
+enabling will restrict which IP’s can access the visitor page) -
+<strong>Allowed counter IP</strong> ( allowed IP address for counter -
+default is 127.0.0.1) - <strong>Visitor limitation by time</strong>
+[Enable/Disable] - <strong>Time visitor limitation</strong> [in minutes]
+(limits visitor to set time, if limitation is enabled) - <strong>Reserve
+method</strong> [Database/Email]. ( default is Database ). <em>Sets
+method for making reservations.</em> - <strong>Reserve for item on loan
+only</strong> [Enable/Disable] ( allow reservation only for those items
+that are already loaned) - <strong>Activate confirm alert?</strong>[
+[Enable/Disable] (default=Enable) - <strong>Ignore SSL
+verification</strong> [Enable/Disable] (Allow insecure http connection;
+default=Enable) - <strong>To make a simple search even simpler,
+narrowing the search criteria.</strong> [No/Yes] (default is No) -
+<strong>Strong password policy</strong> [Yes/No] (default is Yes.
+Enforces minimum password requirements) - <strong>Password minimum
+characters (if strong password policy is Yes)</strong> ( set number of
+characters, default = 8)</p>
+<p>In this screen we can also see which version of SLiMS we are
+using.</p>
+<figure>
+<img role="img" aria-label="system_conf1" src="system_conf1.png" alt="system_conf1" />
+<figcaption aria-hidden="true">system_conf1</figcaption>
+</figure>
+<p><em>Notes:</em> <strong>Show promoted titles on homepage</strong>
+feature on this system: if the check box is checked, the front page of
+the OPAC display will not show titles, unless there is a set of
+bibliographic data to display on the front page. See the <strong>Add new
+entry</strong> menu in the <em>Cataloguing</em> module, and the setting
+“Promote to Homepage”</p>
+<h5 id="important">IMPORTANT</h5>
+<p>When you have altered the System configuration, be sure to click the
+<strong>Save settings</strong> button before exiting <u>or changes will
+be lost.</u></p>
+</body>
+</html>
