@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SLiMS Manual</title>
+</head>
+<body>
+    <script>
+        function openPopup() {
+            const width = 900;
+            const height = 900;
+            
+            const currentWindow = window;
+            const currentLeft = currentWindow.screenX;
+            const currentTop = currentWindow.screenY;
+            const currentWidth = currentWindow.outerWidth;
+            
+            const left = currentLeft + (currentWidth - width) / 2;
+            const top = currentTop + (currentWindow.outerHeight - height) / 2;
+            
+            const features = `width=${width},height=${height},left=${left},top=${top},toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes`;
+            
+            const popup = window.open('../plugins/slims_documentation/index.html', 'myPopup', features);
+			// if online, you could point this window to https://slims.web.id/docs/user-guide/about
+            
+            if (popup) {
+                popup.focus();
+               // window.close();
+            } else {
+                alert('Pop-up blocked! Please allow pop-ups for this site.');
+            }
+        }
+        
+        // Run immediately
+        openPopup();
+    </script>
+</body>
+</html>
